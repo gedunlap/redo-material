@@ -5,6 +5,14 @@
     padding: 0;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+Navbar {
+    position: absolute;
+}
+
 .logo {
     max-width: 60px;
     border-radius: 30px;
