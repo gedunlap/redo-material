@@ -9,18 +9,25 @@
     display: none;
 }
 
-Navbar {
-    position: absolute;
-}
-
-.logo {
+.icon {
     max-width: 60px;
     border-radius: 30px;
 }
 
-.home, .about, .gallery, .contact {
+.logo {
+    max-width: 400px;
+}
+
+.about, .gallery, .contact {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
 }
+
+@media screen and (max-width: 900px) {
+    .fadeimg {
+        max-width: 400px;
+    }
+}
+
