@@ -19,8 +19,8 @@ const Sidebar = ({isOpen, toggle}) => {
             <SidebarLink to='/gallery'>
               Gallery
             </SidebarLink>
-            <SidebarLink to='/contact'>
-              Contact
+            <SidebarLink to='/services'>
+              Services
             </SidebarLink>
           </SidebarMenu>
         </SidebarWrapper>

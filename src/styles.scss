@@ -18,28 +18,76 @@
     }
 }
 
-.about, .gallery, .contact {
+.fadeimg {
+    max-height: 800px;
+    width: auto;
+}
+
+.about {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
     align-items: center;
-    height: 90vh;
+    padding: 20px 0;
+
+    .aboutText {
+        width: 60%;
+        border: solid 2px;
+        border-radius: 20px;
+        padding: 15px 30px;
+        margin-bottom: 30px;
+    }
+
+    .map {
+        border-top-right-radius: 200px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 200px;
+        border-bottom-right-radius: 200px;
+    }
 }
 
-.map {
-    border-top-right-radius: 200px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 200px;
-    border-bottom-right-radius: 200px;
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+    .imageWrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100vh;
+        justify-content: center;
+        
+        .eachImage {
+            max-width: 400px;
+            max-height: 400px;
+            
+            .image {
+                max-height: 400px;
+            }
+        }
+    }
+    
 }
 
-@media screen and (max-width: 900px) {
+
+@media only screen and (max-width: 900px) {
     .fadeimg {
         max-width: 400px;
     }
 
-    .map {
-        max-width: 350px;
-        max-height: 350px;
+    .about {
+        .aboutText {
+            width: 90%;
+        }
+    
+        .map {
+            max-width: 350px;
+            max-height: 350px;
+        }
     }
+    
 }
 

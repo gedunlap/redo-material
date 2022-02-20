@@ -12,14 +12,14 @@ const Navbar = ({toggle}) => {
                 <img className='icon' src="https://i.imgur.com/hKIE2K1.jpg" alt="logo" />
             </NavLink>
             <NavMenu>
-              <NavLink id="RouterNavLink" to="/about">
+              <NavLink to="/about">
                 About
               </NavLink>
-              <NavLink id="RouterNavLink" to="/gallery">
+              <NavLink to="/gallery">
                 Gallery
               </NavLink>
-              <NavLink id="RouterNavLink" to="/contact">
-                Contact
+              <NavLink to="/services">
+                Services
               </NavLink>
             </NavMenu>
           </div>
