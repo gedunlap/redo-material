@@ -4,6 +4,9 @@ const imgArr = [
   {url:'https://i.imgur.com/GiyZh8W.jpg'},
   {url:'https://i.imgur.com/d1medHx.jpg'},
   {url:'https://i.imgur.com/FtEBq9l.jpg'},
+  {url:'https://i.imgur.com/CrJjauY.jpg'},
+  {url:'https://i.imgur.com/22KS9Yc.jpg'},
+  {url:'https://i.imgur.com/KHKTS6j.jpg'},
 ]
 
 const Gallery = () => {
