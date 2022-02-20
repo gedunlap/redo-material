@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaBorderNone } from 'react-icons/fa'
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarBtn } from './SidebarElements'
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarBtn, ShopNav } from './SidebarElements'
 
 const Sidebar = ({isOpen, toggle}) => {
   return (
@@ -22,6 +22,9 @@ const Sidebar = ({isOpen, toggle}) => {
             <SidebarLink to='/services'>
               Services
             </SidebarLink>
+            <ShopNav>
+              <a href="https://www.fresha.com/store/material-t8mbqg4o" target="_blank" style={{textDecoration:"none", color:"white"}}>Shop</a>
+            </ShopNav>
           </SidebarMenu>
         </SidebarWrapper>
         <SideBtnWrap>

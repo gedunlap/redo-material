@@ -38,7 +38,7 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 60px);
+    grid-template-rows: repeat(5, 60px);
     text-align: center;
 `
 
@@ -60,6 +60,19 @@ export const SidebarLink = styled(LinkS)`
     }
 `
 
+export const ShopNav = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+`
+
 export const SideBtnWrap = styled.div`
     display: flex;
     justify-content: center;
@@ -67,7 +80,7 @@ export const SideBtnWrap = styled.div`
 
 export const SidebarBtn = styled.div`
     border-radius: 50px;
-    background: #2ecc;
+    background: #fff;
     white-space: nowrap;
     padding: 16px 64px;
     color: #010606;
@@ -80,7 +93,7 @@ export const SidebarBtn = styled.div`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #fff;
+        background: #9f9f9f;
         color: #010606
     }
 `

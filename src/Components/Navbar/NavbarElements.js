@@ -26,6 +26,15 @@ export const NavLink = styled(Link)`
     }
 `
 
+export const ShopNav = styled.div`
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    font-weight: 400;
+`
+
 export const Bars = styled(FaBars)`
     display: none;
     color: #000;

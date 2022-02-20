@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoLogoInstagram } from 'react-icons/io'
 import { IoMailOutline } from 'react-icons/io5'
-import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnA } from './NavbarElements'
+import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnA, ShopNav } from './NavbarElements'
 
 const Navbar = ({toggle}) => {
   return (
@@ -21,6 +21,9 @@ const Navbar = ({toggle}) => {
               <NavLink to="/services">
                 Services
               </NavLink>
+              <ShopNav>
+                <a href="https://www.fresha.com/store/material-t8mbqg4o" target="_blank" style={{textDecoration:"none", color:"black"}}>Shop</a>
+              </ShopNav>
             </NavMenu>
           </div>
           <Bars onClick={toggle} />

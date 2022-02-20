@@ -4,10 +4,14 @@ import Slideshow from '../Components/Slideshow/Slideshow'
 const Home = () => {
   return (
       <div className='home'>
-        <div>
-          <Slideshow />
+        <Slideshow />
+        <div className='homeText'>
+          <div className='brLine' />
+          <div className="t4"><p>2502 N. Howard Ave Suite B Tampa, FL 33607</p></div>
+          <div className="t5">Tues: 10am-5pm</div>
+          <div className='t5'>Wed - Fri: 9am-5pm</div>
+          <div className='t6'> Sat: 10am-4pm</div>
         </div>
-
       </div>
   )
 }
