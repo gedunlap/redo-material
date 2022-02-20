@@ -7,21 +7,23 @@ const Navbar = ({toggle}) => {
   return (
     <>
         <Nav>
-          <NavLink to="/">
-            <img className='icon' src="https://i.imgur.com/hKIE2K1.jpg" alt="logo" />
-          </NavLink>
+          <div className='navLeft'>
+            <NavLink to="/">
+                <img className='icon' src="https://i.imgur.com/hKIE2K1.jpg" alt="logo" />
+            </NavLink>
+            <NavMenu>
+              <NavLink id="RouterNavLink" to="/about">
+                About
+              </NavLink>
+              <NavLink id="RouterNavLink" to="/gallery">
+                Gallery
+              </NavLink>
+              <NavLink id="RouterNavLink" to="/contact">
+                Contact
+              </NavLink>
+            </NavMenu>
+          </div>
           <Bars onClick={toggle} />
-          <NavMenu>
-            <NavLink to="/about">
-              About
-            </NavLink>
-            <NavLink to="/gallery">
-              Gallery
-            </NavLink>
-            <NavLink to="/contact">
-              Contact
-            </NavLink>
-          </NavMenu>
           <NavBtn>
             <NavBtnA>
               <a href="https://www.fresha.com/a/material-tampa-2502-north-howard-avenue-tjr5uxjo/booking?menu=true" target="_blank" style={{textDecoration:"none", color:"black"}}>APPOINTMENTS</a>

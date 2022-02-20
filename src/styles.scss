@@ -9,13 +9,13 @@
     display: none;
 }
 
-.icon {
-    max-width: 60px;
-    border-radius: 30px;
-}
+.navLeft {
+    display: flex;
 
-.logo {
-    max-width: 400px;
+    .icon {
+        max-width: 60px;
+        border-radius: 30px;
+    }
 }
 
 .about, .gallery, .contact {
@@ -25,9 +25,21 @@
     height: 90vh;
 }
 
+.map {
+    border-top-right-radius: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
 @media screen and (max-width: 900px) {
     .fadeimg {
         max-width: 400px;
+    }
+
+    .map {
+        max-width: 350px;
+        max-height: 350px;
     }
 }
 
