@@ -5,19 +5,24 @@ const About = () => {
     <div className='about'>
       <div className='about1'>
         <div className='about1imgbox'>
-          <img className='about1img' src="https://i.imgur.com/YOK59GG.png" alt="clint" />
+          <img className='about1img' src="https://i.imgur.com/YOK59GG.png" alt="sign" />
         </div>
-        <div className='about1textbox'>
-          <h2 className='about1head'>About</h2>
-          <p className='about1p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora alias iste natus sint officiis enim, quos voluptatum aspernatur cupiditate officia quisquam laborum libero necessitatibus quaerat aliquid ad, delectus voluptas nisi! <br />
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde itaque aliquam in id. Quas similique ipsa animi, non repellendus ratione ad quisquam maiores molestias cum est veritatis, blanditiis sint minima! <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, tempora eveniet neque nisi natus labore beatae, minima aperiam cupiditate, magnam rem. Sequi suscipit labore vel inventore ex fugit eius consequuntur.</p>
+        <div className='about1text'>
+          <p className='about1p'>MATERIAL is an intimate, new style of full service hair salon that provides premiere color and styles to Tampa's best. A boutique space in the heart of Tampa Bay, where top stylists from NYC and LA bring their cultivated quality of work to the rapidly growing community.</p>
         </div>
       </div>
+      {/* <div className='brline' /> */}
       <div className='about2'>
-
+        <div className='about2text'>
+          <div className='about2p'>
+            <p><span className='quote'>“I wanted to create a space that brings the same environment and aesthetic to the Tampa area, as a salon you would visit in New York City or Los Angeles.”</span><br />-Clint Dunlap, Salon Owner</p>
+          </div>
+        </div>
+        <div className='about2imgbox'>
+            <img className='about2img' src="https://i.imgur.com/6MpYJ4U.png" alt="clint" />
+        </div>
       </div>
-      <iframe className="map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1281.9751705201484!2d-82.48389064787185!3d27.963140503993333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c37afe6d0c8d%3A0x44582724ad24c70c!2sMATERIAL!5e0!3m2!1sen!2sus!4v1644445746543!5m2!1sen!2sus" title='Material' style={{width:"800px", height:"400px",border:"solid black"}} loading="lazy"></iframe>
+      {/* <div className='brline' /> */}
     </div>
   )
 }

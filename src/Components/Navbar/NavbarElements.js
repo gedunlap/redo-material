@@ -9,7 +9,6 @@ export const Nav = styled.nav`
     justify-content: space-between;
     padding: 0.5rem calc((100vw - 1000px) / 2);
     z-index: 10;
-
 `
 
 export const NavLink = styled(Link)`
@@ -23,7 +22,7 @@ export const NavLink = styled(Link)`
     font-weight: 400;
 
     &.active {
-        color: #2ecc;
+        color: #9f9f9f;
     }
 `
 
@@ -63,8 +62,8 @@ export const NavBtn = styled.nav`
 `
 
 export const NavBtnA = styled.div`
-    border-radius: 20px;
-    background: #2ecc   ;
+    border-radius: 5px;
+    background: #000;
     padding: 10px 15px;
     border: none;
     outline: none;
@@ -75,7 +74,6 @@ export const NavBtnA = styled.div`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: white;
-        border: solid 1px
+        background: #9f9f9f;
     }
 `
