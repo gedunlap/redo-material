@@ -4,6 +4,7 @@ import Slideshow from '../Components/Slideshow/Slideshow'
 const Home = () => {
   return (
       <div className='home'>
+        <img className='homelogo' src="https://i.imgur.com/Yan6SO9.jpg" alt="logo" />
         <Slideshow />
         <div className='homeText'>
           <div className='brLine' />
