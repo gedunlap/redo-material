@@ -17,7 +17,7 @@ const Sidebar = ({isOpen, toggle}) => {
               About
             </SidebarLink>
             <SidebarLink to='/gallery'>
-              Gallery
+              Artists & Gallery
             </SidebarLink>
             <SidebarLink to='/services'>
               Services

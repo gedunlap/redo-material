@@ -1,4 +1,6 @@
 import React from 'react'
+import { IoLogoInstagram } from 'react-icons/io'
+
 
 const imgArr = [
   {url:'https://i.imgur.com/GiyZh8W.jpg'},
@@ -17,13 +19,34 @@ const imgArr = [
 
 const Gallery = () => {
   return (
-    <div className='gallery'>
-      <div className='imageWrap'>
-        {imgArr.map((img, index) => (
-          <div className='eachImage' key={index}>
-            <img className='image' src={img.url} alt={index} />
+    <div className='gallerypage'>
+      <h2>ARTISTS</h2>
+      <div className='brLine'></div>
+      <div className='artists'>
+        <div className='artistbox'>
+          <div className='imgbox'>
+            <img src="https://i.imgur.com/ciLkqIX.jpg" alt="clint" />
           </div>
-        ))}
+          <a href="https://www.instagram.com/clint.color/" target="_blank" style={{textDecoration:"none", color:"black"}}><p>Clint Dunlap - Colorist, Salon Owner <IoLogoInstagram size='20' /></p></a>
+        </div>
+        <div className='artistbox'>
+          <div className='imgbox'>
+            <img src="https://i.imgur.com/sbtD3pA.jpg" alt="derek" />
+          </div>
+          <a href="https://www.instagram.com/derekpeterw/" target="_blank" style={{textDecoration:"none", color:"black"}}><p>Derek Williams - Stylist <IoLogoInstagram size='20' /></p></a>
+        </div>
+      </div>
+      <div className='brLine'></div>
+      <h2>GALLERY</h2>
+      <div className='brLine'></div>
+      <div className='gallery'>
+        <div className='imageWrap'>
+          {imgArr.map((img, index) => (
+            <div className='eachImage' key={index}>
+              <img className='image' src={img.url} alt={index} />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   )

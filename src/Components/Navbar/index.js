@@ -16,7 +16,7 @@ const Navbar = ({toggle}) => {
                 About
               </NavLink>
               <NavLink to="/gallery">
-                Gallery
+                Artists & Gallery
               </NavLink>
               <NavLink to="/services">
                 Services
