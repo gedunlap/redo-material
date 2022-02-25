@@ -56,8 +56,8 @@
     line-height: 1.6;
 
     .aboutHeader {
-        margin: 30px 0;
-        font-size: 30px;
+        margin: 10px 0;
+        font-size: 20px;
     }
 
     .about1 {
@@ -138,7 +138,7 @@
             flex-direction: column;
             justify-content: space-evenly;
             width: 50%;
-    
+            
             .imgbox{
                 display: flex;
                 justify-content: center;
@@ -176,7 +176,7 @@
             .eachImage {
                 display: flex;
                 justify-content: center;
-                align-items: center;
+                align-items: start;
                 margin: 10px 0;
                 overflow: hidden;
                 height: 380px;
@@ -187,6 +187,98 @@
             }
         }
         
+    }
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    align-items: center;
+    padding: 20px 0;
+    line-height: 1.6;
+    text-align: left;
+
+    .servicesHeader{
+        margin: 10px 0;
+        font-size: 20px;
+    }
+
+    .servicesHeaderImg{
+        width: 60%;
+        height: auto;
+        margin: 50px;
+    }
+
+    .servicesColor{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px 0;
+
+        .colorImgBox{
+            width: 40%;
+            overflow: hidden;
+
+            .servicesColorImg{
+                width: 100%;
+            }
+        }
+
+        .colorTextBox{
+            max-width: 40%;
+            font-size: 18px;
+            text-align: start;
+
+            h2{
+                color: rgb(85, 85, 85);
+            }
+
+            .colorLabel{
+                span{
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+
+    .servicesStyle{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        margin: 50px 0;
+
+
+        .stylingImgBox{
+            width: 40%;
+            overflow: hidden;
+
+            .servicesStylingImg{
+                width: 100%;
+            }
+        }
+
+        .stylingTextBox{
+            max-width: 40%;
+            font-size: 18px;
+            text-align: start;
+
+            h2{
+                color: rgb(85, 85, 85);
+            }
+
+            .stylingLabel{
+                span{
+                    font-weight: 300;
+                }
+            }
+        }
     }
 }
 
@@ -235,6 +327,22 @@
 
     .artistbox{
         min-width: 380px;
+    }
+
+    .servicesHeaderImg{
+        min-width: 90%;
+        margin: 20px 0;
+    }
+
+    .colorImgBox, .stylingImgBox{
+        height: 0px;
+        width: 0px;
+        display: hidden;
+    }
+
+    .colorTextBox, .stylingTextBox{
+        min-width: 80%;
+        margin: 10px 0;
     }
     
 }
