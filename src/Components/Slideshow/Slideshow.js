@@ -4,20 +4,26 @@ import 'react-slideshow-image/dist/styles.css'
 
 const fadeImages = [
   {
-    url: 'https://i.imgur.com/XL9L0qo.jpg',
+    url: 'https://i.imgur.com/qnpPwxq.jpg',
   },
   {
-    url: 'https://i.imgur.com/u9MQNck.jpg',
+    url: 'https://i.imgur.com/CVNZcqN.jpg',
   },
   {
-    url: 'https://i.imgur.com/sPSgrwa.jpg',
+    url: 'https://i.imgur.com/NB6nAKj.jpg',
+  },
+  {
+    url: 'https://i.imgur.com/RmlvPyK.jpg',
+  },
+  {
+    url: 'https://i.imgur.com/mDCMfh9.jpg',
   },
 ];
 
 const Slideshow = () => {
     return (
         <div className="slide-container">
-            <Fade duration="3000">
+            <Fade duration='3000'>
                 {fadeImages.map((fadeImage, index) => (
                 <div className="each-fade" key={index}>
                     <div className="image-container">
