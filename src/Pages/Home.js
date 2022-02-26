@@ -1,11 +1,17 @@
 import React from 'react'
 import Slideshow from '../Components/Slideshow/Slideshow'
+import Slideshow2 from '../Components/Slideshow2/Slideshow2'
 
 const Home = () => {
   return (
       <div className='home'>
         <img className='homelogo' src="https://i.imgur.com/Yan6SO9.jpg" alt="logo" />
-        <Slideshow />
+        <div className='slideshowweb'>
+          <Slideshow />
+        </div>
+        <div className='slideshowphone'>
+          <Slideshow2 />
+        </div>
         <div className='homeText'>
           <div className='brLine' />
           <div className="t4"><p>2502 N. Howard Ave Suite B Tampa, FL 33607</p></div>
