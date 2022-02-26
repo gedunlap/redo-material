@@ -20,7 +20,7 @@ const imgArr = [
 const Gallery = () => {
   return (
     <div className='gallerypage'>
-      <h2>ARTISTS</h2>
+      <h1 className='artistHeader'>ARTISTS</h1>
       <div className='brLine'></div>
       <div className='artists'>
         <div className='artistbox'>

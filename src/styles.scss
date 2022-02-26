@@ -126,6 +126,11 @@
     align-items: center;
     margin: 30px 0;
 
+    .artistHeader{
+        margin: 10px 0;
+        font-size: 30px;
+    }
+
     .artists{
         display: flex;
         flex-direction: row;
@@ -280,6 +285,12 @@
             }
         }
     }
+
+    .servicesFooterImg{
+        width: 40%;
+        height: auto;
+        margin: 50px;
+    }
 }
 
 
@@ -329,7 +340,7 @@
         min-width: 380px;
     }
 
-    .servicesHeaderImg{
+    .servicesHeaderImg, .servicesFooterImg{
         min-width: 90%;
         margin: 20px 0;
     }
