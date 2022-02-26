@@ -33,6 +33,7 @@
 .fadeimg {
     max-height: 800px;
     width: auto;
+    padding: 0 10px;
 }
 
 .home{
@@ -216,7 +217,7 @@
     }
 
     .servicesHeaderImg{
-        width: 60%;
+        width: 40%;
         height: auto;
         margin: 50px;
     }
@@ -234,7 +235,7 @@
             overflow: hidden;
 
             .servicesColorImg{
-                width: 100%;
+                width: 95%;
             }
         }
 
@@ -305,6 +306,7 @@
 @media only screen and (max-width: 900px) {
     .fadeimg {
         max-width: 400px;
+        padding: 0;
     }
 
     .homelogo{

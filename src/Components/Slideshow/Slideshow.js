@@ -26,7 +26,7 @@ const Slideshow = () => {
                 <div className="each-fade" key={index}>
                     <div className="image-container">
                       <img className='fadeimg' src={fadeImage.url1} />
-                      <img className='fadeimg' id="fadeimg2" src={fadeImage.url2} />
+                      <img className='fadeimg' src={fadeImage.url2} />
                     </div>
                 </div>
                 ))}

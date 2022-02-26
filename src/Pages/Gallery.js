@@ -4,16 +4,15 @@ import { IoLogoInstagram } from 'react-icons/io'
 
 const imgArr = [
   {url:'https://i.imgur.com/GiyZh8W.jpg'},
-  {url:'https://i.imgur.com/d1medHx.jpg'},
-  {url:'https://i.imgur.com/FtEBq9l.jpg'},
-  {url:'https://i.imgur.com/CrJjauY.jpg'},
-  {url:'https://i.imgur.com/22KS9Yc.jpg'},
   {url:'https://i.imgur.com/KHKTS6j.jpg'},
+  {url:'https://i.imgur.com/KYvTyNy.jpg'},
+  {url:'https://i.imgur.com/FtEBq9l.jpg'},
+  {url:'https://i.imgur.com/d1medHx.jpg'},
   {url:'https://i.imgur.com/bg73ePt.jpg'},
-  {url:'https://i.imgur.com/hAWPAqN.jpg'},
-  {url:'https://i.imgur.com/rr6BjlW.jpg'},
-  {url:'https://i.imgur.com/DzaGpUz.jpg'},
-  {url:'https://i.imgur.com/XeMftNc.jpg'},
+  {url:'https://i.imgur.com/uciMTmW.jpg'},
+  {url:'https://i.imgur.com/4I8aaa3.jpg'},
+  {url:'https://i.imgur.com/CQQbA09.jpg'},
+
   
 ]
 

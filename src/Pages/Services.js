@@ -31,14 +31,17 @@ const Services = () => {
         </div>
         <div className='stylingTextBox'>
           <h2>STYLING</h2><br />
-          <h4 className='stylingLabel'>Women’s Haircut: <br /> <span>$200+ <BiRightArrow size="15"/> 2hr+</span></h4>
+          <h4 className='stylingLabel'>Women’s Haircut: <br /> <span>$95+ <BiRightArrow size="15"/> 1hr 15min</span></h4>
           <p className='stylingText'>Service includes blow dry/style.</p><br />
-          <h4 className='stylingLabel'>Blow Dry: <br /> <span>$200+ <BiRightArrow size="15"/> 2hr+</span></h4>
+          <h4 className='stylingLabel'>Blow Dry: <br /> <span>$60+ <BiRightArrow size="15"/> 45min</span></h4>
           <br />
-          <h4 className='stylingLabel'>Up do | Special Occasion: <br /> <span>$200+ <BiRightArrow size="15"/> 2hr+</span></h4>
+          <h4 className='stylingLabel'>Up do | Special Occasion: <br /> <span>$85+ <BiRightArrow size="15"/> 1hr 30min</span></h4>
           <br />
+          <h2>EXTENSIONS</h2>
+          <p className='stylingText'>All extension services are priced upon consultation</p><br />
         </div>
       </div>
+      <h4 style={{textAlign:"center", width:"70%"}}>Consultations for Color, Haircuts and Extensions are Complimentary</h4>
       <img className='servicesFooterImg' src="https://i.imgur.com/q9zryo0.jpg" alt="example" />
     </div>
   )
