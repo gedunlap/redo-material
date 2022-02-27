@@ -1,5 +1,19 @@
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: http://www.fonts.com
+*/
+
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=1c21d903-645d-46f0-94b5-bc1f120362b6&fontids=5760841,5760861");
+@font-face{
+    font-family:"Helvetica Now Reg";
+    src:url("../Fonts/5760841/46dd84ea-bb96-46da-973b-d7fcca46437e.woff2") format("woff2"),url("../Fonts/5760841/0fb90058-c064-40ed-8109-d1fd8633caa2.woff") format("woff");
+}
+@font-face{
+    font-family:"Helvetica Now Bold";
+    src:url("../Fonts/5760861/39ae88e8-7d53-4395-8f9d-f7a0d4060ec4.woff2") format("woff2"),url("../Fonts/5760861/0c4f3bb0-d605-4462-9603-9163a560a536.woff") format("woff");
+}
+
 * {
-    font-family: Helvetica;
+    font-family:"Helvetica Now Reg";
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -49,6 +63,7 @@
         flex-direction: column;
         align-items: center;
         line-height: 1.6;
+        font-size: 18px;
     }
 }
 
@@ -64,6 +79,7 @@
     .aboutHeader {
         margin: 10px 0;
         font-size: 20px;
+        font-family:"Helvetica Now Bold";
     }
 
     .about1 {
@@ -118,8 +134,9 @@
                 text-align: left;
 
                 .quote {
-                    font-size: 30px;
+                    font-size: 28px;
                     text-align: left;
+                    font-family:"Helvetica Now Bold"
                 }
             }
         }
@@ -132,9 +149,15 @@
     align-items: center;
     margin: 30px 0;
 
+    h2{
+        font-family:"Helvetica Now Bold";
+    }
+    
+
     .artistHeader{
         margin: 10px 0;
         font-size: 30px;
+        font-family:"Helvetica Now Bold";
     }
 
     .artists{
@@ -164,8 +187,8 @@
             }
     
             p{
-                font-weight: bold;
                 margin: 20px 0;
+                font-family:"Helvetica Now Bold";
             }
         }
     }
@@ -214,6 +237,7 @@
     .servicesHeader{
         margin: 10px 0;
         font-size: 20px;
+        font-family:"Helvetica Now Bold";
     }
 
     .servicesHeaderImg{
@@ -245,13 +269,12 @@
             text-align: start;
 
             h2{
+                font-family:"Helvetica Now Bold";
                 color: rgb(85, 85, 85);
             }
 
             .colorLabel{
-                span{
-                    font-weight: 300;
-                }
+                font-family:"Helvetica Now Bold";
             }
         }
     }
@@ -282,13 +305,29 @@
 
             h2{
                 color: rgb(85, 85, 85);
+                font-family:"Helvetica Now Bold";
             }
 
             .stylingLabel{
-                span{
-                    font-weight: 300;
-                }
+                font-family:"Helvetica Now Bold";
             }
+        }
+    }
+
+    button{
+        border-radius: 5px;
+        background: #000;
+        padding: 10px 15px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        margin-top: 20px;
+
+        &:hover {
+            transition: all 0.2s ease-in-out;
+            background: #9f9f9f;
         }
     }
 
@@ -339,10 +378,13 @@
             .about2text {
                 min-width: 80%;
                 margin: 30px 0;
+
             }
             .about2imgbox {
                 width: 380px;
             }
+
+            
         }
     
         .map {

@@ -1,5 +1,7 @@
 import React from 'react'
 import { BiRightArrow } from "react-icons/bi";
+import { BsArrowRightShort } from "react-icons/bs";
+
 
 
 const Services = () => {
@@ -41,7 +43,8 @@ const Services = () => {
           <p className='stylingText'>All extension services are priced upon consultation</p><br />
         </div>
       </div>
-      <h4 style={{textAlign:"center", width:"70%"}}>Consultations for Color, Haircuts and Extensions are Complimentary</h4>
+      <h4 style={{textAlign:"center", width:"70%", fontFamily:"Helvetica Now Bold"}}>Consultations for Color, Haircuts and Extensions are Complimentary</h4>
+      <button><a href="https://www.fresha.com/a/material-tampa-2502-north-howard-avenue-tjr5uxjo/booking?menu=true" target="_blank" style={{textDecoration:"none", color:"white"}}>Book An Appointment</a></button>
       <img className='servicesFooterImg' src="https://i.imgur.com/q9zryo0.jpg" alt="example" />
     </div>
   )
