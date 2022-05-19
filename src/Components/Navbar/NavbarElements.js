@@ -34,6 +34,11 @@ export const ShopNav = styled.div`
     height: 100%;
     cursor: pointer;
     font-weight: 400;
+
+    a{
+        font-family:"Helvetica Now Bold";
+    }
+    
 `
 
 export const Bars = styled(FaBars)`
