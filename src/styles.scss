@@ -338,6 +338,38 @@ This CSS resource incorporates links to font software which is the valuable copy
     }
 }
 
+.textpage{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 8vw 20vh 8vw;
+    text-align: left;
+    font-family:"Helvetica Now";
+
+    .textlogo{
+        width: 50%;
+        margin: 3vh 0;
+    }
+
+    h1{
+        margin: 3vh 0;
+    }
+
+    p{
+        width: 50%;
+    }
+
+    @media only screen and (max-width: 900px){
+        .textlogo{
+            width: 70%;
+        }
+
+        p{
+            width: 90%;
+        }
+    }
+}
 
 
 
