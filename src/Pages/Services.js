@@ -39,7 +39,7 @@ const Services = () => {
           <p className='stylingText'>Service includes blow dry/style.</p><br />
           <h4 className='stylingLabel'>Blow Dry: <br /> <span>$65+ <BiRightArrow size="15"/> 45min</span></h4>
           <br />
-          <h4 className='stylingLabel'>Up do | Special Occasion: <br /> <span>$95+ <BiRightArrow size="15"/> 1hr 30min</span></h4>
+          <h4 className='stylingLabel'>Up do | Special Occasion: <br /> <span>$95+ <BiRightArrow size="15"/> 1hr</span></h4>
           <br />
           <h2>EXTENSIONS</h2>
           <p className='stylingText'>All extension services are priced upon consultation</p><br />
