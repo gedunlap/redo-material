@@ -26,13 +26,25 @@ const Gallery = () => {
           <div className='imgbox'>
             <img src="https://i.imgur.com/ciLkqIX.jpg" alt="clint" />
           </div>
-          <a href="https://www.instagram.com/clint.color/" target="_blank" style={{textDecoration:"none", color:"black"}}><p>Clint Dunlap - Colorist, Salon Owner <IoLogoInstagram size='20' /></p></a>
+          <a href="https://www.instagram.com/clint.color/" target="_blank" style={{textDecoration:"none", color:"black"}}><p>Clint Dunlap - Colorist / Salon Owner <IoLogoInstagram size='20' /></p></a>
         </div>
         <div className='artistbox'>
           <div className='imgbox'>
             <img src="https://i.imgur.com/sbtD3pA.jpg" alt="derek" />
           </div>
           <a href="https://www.instagram.com/derekpeterw/" target="_blank" style={{textDecoration:"none", color:"black"}}><p>Derek Williams - Stylist <IoLogoInstagram size='20' /></p></a>
+        </div>
+        <div className='artistbox'>
+          <div className='imgbox'>
+            <img src="https://imgur.com/eyKu9LJ.jpg" alt="derek" />
+          </div>
+          <a href="https://www.instagram.com/jessi.lee.hair/" target="_blank" style={{textDecoration:"none", color:"black"}}><p>Jessi Lee - Colorist / Stylist <IoLogoInstagram size='20' /></p></a>
+        </div>
+        <div className='artistbox'>
+          <div className='imgbox'>
+            <img src="https://imgur.com/OdUi0TZ.jpg" alt="derek" />
+          </div>
+          <a href="https://www.instagram.com/kevinandrewbaker/" target="_blank" style={{textDecoration:"none", color:"black"}}><p>Kevin Baker - Stylist <IoLogoInstagram size='20' /></p></a>
         </div>
       </div>
       <div className='brLine'></div>

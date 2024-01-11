@@ -171,17 +171,17 @@ This CSS resource incorporates links to font software which is the valuable copy
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
-            width: 50%;
+            width: 25%;
             
             .imgbox{
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 overflow: hidden;
-                height: 450px;
+                height: 320px;
         
                 img{
-                    width: 380px;
+                    width: 280px;
                 }
         
             }
