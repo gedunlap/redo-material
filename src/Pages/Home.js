@@ -6,7 +6,7 @@ import { AiOutlinePhone } from "react-icons/ai";
 const Home = () => {
   return (
       <div className='home'>
-        <img className='homelogo' src="https://i.imgur.com/Yan6SO9.jpg" alt="logo" />
+        <img className='homelogo' src="https://imgur.com/RNPuLg2.jpg" alt="logo" />
         <div className='slideshowweb'>
           <Slideshow />
         </div>
