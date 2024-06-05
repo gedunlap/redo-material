@@ -1,5 +1,5 @@
 import React from 'react'
-import construction from '../Photos/UnderConstruction.jpeg'
+import construction from '../Photos/UnderConstruction.png'
 import Slideshow from '../Components/Slideshow/Slideshow'
 import Slideshow2 from '../Components/Slideshow2/Slideshow2'
 import { AiOutlinePhone } from "react-icons/ai";
@@ -9,9 +9,7 @@ const Home = () => {
   return (
       <div className='home'>
         <img className='homelogo' src="https://imgur.com/7ykZPJM.jpg" alt="logo" />
-        <div className='slideshow'>
-          <img className='underconstruction' src={construction} alt="under-construction"/>
-        </div>
+        <img className='underconstruction' style={{width:'40%',height:'auto',margin:'0'}} src={construction} alt="under-construction"/>
         {/* <div className='slideshowweb'>
           <Slideshow />
         </div>
@@ -27,9 +25,7 @@ const Home = () => {
           <div><AiOutlinePhone size='35' style={{color:"white"}} /><br /><a href="tel:+1-813-280-1356" style={{color:"white", textDecoration:"none", fontSize:"25px"}}>(813) 280-1356</a></div>
           <br />
           <div className="t4"><p>2502 N. Howard Ave Suite A Tampa, FL 33607</p></div>
-          <div className="t5">Tues: 10am-5pm</div>
           <div className='t5'>Tuesday - Saturday: 9am-5pm</div>
-          <div className='t6'> Sat: 10am-4pm</div>
         </div>
       </div>
   )

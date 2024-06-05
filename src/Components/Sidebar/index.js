@@ -29,7 +29,7 @@ const Sidebar = ({isOpen, toggle}) => {
         </SidebarWrapper>
         <SideBtnWrap>
           <SidebarBtn>
-            <a className="sidebtn" href="https://www.fresha.com/a/material-tampa-2502-north-howard-avenue-tjr5uxjo/booking?menu=true" target="_blank" style={{textDecoration:"none", color:"black"}}>APPOINTMENTS</a>
+            <a className="sidebtn" href="https://www.fresha.com/a/material-tampa-2502-north-howard-avenue-tjr5uxjo/booking?menu=true" target="_blank" rel='noreferrer' style={{textDecoration:"none", color:"black"}}>APPOINTMENTS</a>
           </SidebarBtn>
         </SideBtnWrap>
     </SidebarContainer>
