@@ -9,7 +9,7 @@ const Navbar = ({toggle}) => {
         <Nav>
           <div className='navLeft'>
             <NavLink to="/">
-                <img className='icon' src="https://i.imgur.com/hKIE2K1.jpg" alt="logo" />
+                <img  style={{border:"solid white 2px"}} className='icon' src="https://i.imgur.com/hKIE2K1.jpg" alt="logo" />
             </NavLink>
             <NavMenu>
               <NavLink to="/about">
@@ -21,9 +21,9 @@ const Navbar = ({toggle}) => {
               <NavLink to="/services">
                 Services
               </NavLink>
-              <ShopNav>
-                <a href="https://www.fresha.com/store/material-t8mbqg4o" target="_blank" style={{textDecoration:"none", color:"black"}}>Shop</a>
-              </ShopNav>
+              {/* <ShopNav>
+                <a href="https://www.fresha.com/store/material-t8mbqg4o" target="_blank" style={{textDecoration:"none", color:"white"}}>Shop</a>
+              </ShopNav> */}
             </NavMenu>
           </div>
           <Bars onClick={toggle} />
@@ -31,8 +31,8 @@ const Navbar = ({toggle}) => {
             <NavBtnA>
               <a href="https://www.fresha.com/a/material-tampa-2502-north-howard-avenue-tjr5uxjo/booking?menu=true" target="_blank" style={{textDecoration:"none", color:"white"}}>APPOINTMENTS</a>
             </NavBtnA>
-            <a href="https://www.instagram.com/materialtampa/" target="_blank"><IoLogoInstagram size='30' style={{color:"black"}} /></a>
-            <a href="mailto: contact@materialtampa.com"><IoMailOutline size='30' style={{color:"black"}} /></a>
+            <a href="https://www.instagram.com/materialtampa/" target="_blank"><IoLogoInstagram size='30' style={{color:"white"}} /></a>
+            <a href="mailto: contact@materialtampa.com"><IoMailOutline size='30' style={{color:"white"}} /></a>
           </NavBtn>
         </Nav>
     </>

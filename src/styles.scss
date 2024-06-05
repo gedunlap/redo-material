@@ -12,6 +12,11 @@ This CSS resource incorporates links to font software which is the valuable copy
     src:url("../Fonts/5760861/39ae88e8-7d53-4395-8f9d-f7a0d4060ec4.woff2") format("woff2"),url("../Fonts/5760861/0c4f3bb0-d605-4462-9603-9163a560a536.woff") format("woff");
 }
 
+body{
+    background-color: black;
+    color: white;
+}
+
 * {
     font-family:"Helvetica Now Reg";
     box-sizing: border-box;
@@ -26,7 +31,7 @@ This CSS resource incorporates links to font software which is the valuable copy
 .brLine {
     width: 90%;
     height: 2px;
-    background-color: black;
+    background-color: white;
     margin: 30px 0;
 }
 
@@ -103,7 +108,7 @@ This CSS resource incorporates links to font software which is the valuable copy
         .about1text {
             max-width: 40%;
             font-size: 18px;
-            text-align: start;
+            text-align: flex-start;
         }
     }
 
@@ -171,7 +176,7 @@ This CSS resource incorporates links to font software which is the valuable copy
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
-            width: 25%;
+            width: 33%;
             
             .imgbox{
                 display: flex;
@@ -210,7 +215,7 @@ This CSS resource incorporates links to font software which is the valuable copy
             .eachImage {
                 display: flex;
                 justify-content: center;
-                align-items: start;
+                align-items: flex-start;
                 margin: 10px 0;
                 overflow: hidden;
                 height: 380px;
@@ -266,7 +271,7 @@ This CSS resource incorporates links to font software which is the valuable copy
         .colorTextBox{
             max-width: 40%;
             font-size: 18px;
-            text-align: start;
+            text-align: flex-start;
 
             h2{
                 font-family:"Helvetica Now Bold";
@@ -301,7 +306,7 @@ This CSS resource incorporates links to font software which is the valuable copy
         .stylingTextBox{
             max-width: 40%;
             font-size: 18px;
-            text-align: start;
+            text-align: flex-start;
 
             h2{
                 color: rgb(85, 85, 85);
