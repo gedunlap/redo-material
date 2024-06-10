@@ -9,7 +9,10 @@ const Home = () => {
   return (
       <div className='home'>
         <img className='homelogo' src="https://imgur.com/7ykZPJM.jpg" alt="logo" />
-        <img className='underconstruction' style={{width:'40%',height:'auto',margin:'0'}} src={construction} alt="under-construction"/>
+        <div classname='slideshowweb' style={{display:'flex', justifyContent:'center'}}>
+          <img className='underconstruction' style={{margin:'50px', width:'40%'}} src={construction} alt="under-construction"/>
+        </div>
+        
         {/* <div className='slideshowweb'>
           <Slideshow />
         </div>
