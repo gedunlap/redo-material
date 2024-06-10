@@ -51,7 +51,7 @@ const Gallery = () => {
           <div className='imgbox'>
             <img src={maddison} alt="maddison" />
           </div>
-          <a href="https://www.instagram.com/maddisoncolors/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Maddison Cave - Stylist / Stylist <IoLogoInstagram size='20' /></p></a>
+          <a href="https://www.instagram.com/maddisoncolors/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Maddison Cave - Colorist / Stylist <IoLogoInstagram size='20' /></p></a>
         </div>
       </div>
       <div className='brLine'></div>
