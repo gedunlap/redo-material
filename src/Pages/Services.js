@@ -1,4 +1,5 @@
 import React from 'react'
+import img9 from '../Photos/Site Pics/9.jpg'
 import { BiRightArrow } from "react-icons/bi";
 import { BsArrowRightShort } from "react-icons/bs";
 
@@ -9,7 +10,7 @@ const Services = () => {
     <div className='services'>
       <div className='servicesHeader'><h1>SERVICES</h1></div>
       <div className='brLine' />
-      <img className='servicesHeaderImg' src="https://i.imgur.com/bHMAkXy.jpg" alt="product" />
+      <img className='servicesHeaderImg' src={img9} alt="product" />
       <h3 style={{textAlign:"center"}}>* The listings below indicate starting prices. Final prices will depend on service provider, timing, hair length, density and / or special treatment required.</h3>
       <div className='servicesColor'>
         <div className='colorTextBox'>
