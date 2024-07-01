@@ -1,25 +1,31 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
+import img1 from '../../Photos/Site Pics/1.jpg'
+import img2 from '../../Photos/Site Pics/2.jpg'
+import img3 from '../../Photos/Site Pics/3.jpg'
+import img4 from '../../Photos/Site Pics/4.jpg'
+import img5 from '../../Photos/Site Pics/5.jpg'
+import img6 from '../../Photos/Site Pics/6.jpg'
 import 'react-slideshow-image/dist/styles.css'
 
 const fadeImages = [
   {
-    url: 'https://i.imgur.com/qnpPwxq.jpg',
+    url: img1,
   },
   {
-    url: 'https://i.imgur.com/CVNZcqN.jpg',
+    url: img2,
   },
   {
-    url: 'https://i.imgur.com/NB6nAKj.jpg',
+    url: img3,
   },
   {
-    url: 'https://i.imgur.com/mDCMfh9.jpg',
+    url: img4,
   },
   {
-    url: 'https://i.imgur.com/RmlvPyK.jpg',
+    url: img5,
   },
   {
-    url: 'https://i.imgur.com/1Psfh7B.jpg',
+    url: img6,
   },
 ];
 
@@ -31,7 +37,7 @@ const Slideshow = () => {
                 {fadeImages.map((fadeImage, index) => (
                 <div className="each-fade" key={index}>
                     <div className="image-container">
-                      <img className='fadeimg' src={fadeImage.url} />
+                      <img className='fadeimg' src={fadeImage.url} alt='Salon Slideshow'/>
                     </div>
                 </div>
                 ))}

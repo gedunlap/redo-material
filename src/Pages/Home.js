@@ -1,5 +1,5 @@
 import React from 'react'
-import construction from '../Photos/UnderConstruction.png'
+// import construction from '../Photos/UnderConstruction.png'
 import Slideshow from '../Components/Slideshow/Slideshow'
 import Slideshow2 from '../Components/Slideshow2/Slideshow2'
 import { AiOutlinePhone } from "react-icons/ai";
@@ -9,16 +9,16 @@ const Home = () => {
   return (
       <div className='home'>
         <img className='homelogo' src="https://imgur.com/7ykZPJM.jpg" alt="logo" />
-        <div classname='slideshowweb' style={{display:'flex', justifyContent:'center'}}>
+        {/* <div classname='slideshowweb' style={{display:'flex', justifyContent:'center'}}>
           <img className='underconstruction' style={{margin:'50px', width:'40%'}} src={construction} alt="under-construction"/>
-        </div>
+        </div> */}
         
-        {/* <div className='slideshowweb'>
+        <div className='slideshowweb'>
           <Slideshow />
         </div>
         <div className='slideshowphone'>
           <Slideshow2 />
-        </div> */}
+        </div>
         <div className='homeText'>
           <div className='brLine' />
           <NavBtnA>
