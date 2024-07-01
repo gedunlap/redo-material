@@ -1,5 +1,6 @@
 import React from 'react'
 import maddison from '../Photos/MaddisonCove.jpeg'
+import jessi from '../Photos/JessiIG.jpeg'
 import { IoLogoInstagram } from 'react-icons/io'
 
 
@@ -37,7 +38,7 @@ const Gallery = () => {
         </div>
         <div className='artistbox'>
           <div className='imgbox'>
-            <img src="https://imgur.com/eyKu9LJ.jpg" alt="jessi" />
+            <img src={jessi} alt="jessi" />
           </div>
           <a href="https://www.instagram.com/jessi.lee.hair/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Jessi Lee - Colorist / Stylist <IoLogoInstagram size='20' /></p></a>
         </div>
