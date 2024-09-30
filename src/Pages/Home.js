@@ -4,11 +4,13 @@ import Slideshow from '../Components/Slideshow/Slideshow'
 import Slideshow2 from '../Components/Slideshow2/Slideshow2'
 import { AiOutlinePhone } from "react-icons/ai";
 import { NavBtnA } from '../Components/Navbar/NavbarElements'
+import tm from '../Photos/TM-symbol.png'
 
 const Home = () => {
   return (
       <div className='home'>
         <img className='homelogo' src="https://imgur.com/7ykZPJM.jpg" alt="logo" />
+        <img className='homelogotm' src={tm} alt="logotm" />
         {/* <div classname='slideshowweb' style={{display:'flex', justifyContent:'center'}}>
           <img className='underconstruction' style={{margin:'50px', width:'40%'}} src={construction} alt="under-construction"/>
         </div> */}

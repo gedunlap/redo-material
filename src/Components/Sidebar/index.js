@@ -22,9 +22,9 @@ const Sidebar = ({isOpen, toggle}) => {
             <SidebarLink to='/services'>
               Services
             </SidebarLink>
-            {/* <ShopNav>
-              <a href="https://www.fresha.com/store/material-t8mbqg4o" target="_blank" style={{textDecoration:"none", color:"white"}}>Shop</a>
-            </ShopNav> */}
+            <ShopNav>
+              <a href="https://www.fresha.com/store/material-tampa-qx5n1np4?pId=537575" target="_blank" rel="noopener" style={{textDecoration:"none", color:"white"}}>Shop</a>
+            </ShopNav>
           </SidebarMenu>
         </SidebarWrapper>
         <SideBtnWrap>

@@ -21,9 +21,9 @@ const Navbar = ({toggle}) => {
               <NavLink to="/services">
                 Services
               </NavLink>
-              {/* <ShopNav>
-                <a href="https://www.fresha.com/store/material-t8mbqg4o" target="_blank" style={{textDecoration:"none", color:"white"}}>Shop</a>
-              </ShopNav> */}
+              <ShopNav>
+                <a href="https://www.fresha.com/store/material-tampa-qx5n1np4?pId=537575" target="_blank" style={{textDecoration:"none", color:"white"}}>Shop</a>
+              </ShopNav>
             </NavMenu>
           </div>
           <Bars onClick={toggle} />
