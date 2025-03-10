@@ -1,7 +1,8 @@
 import React from 'react'
 import img9 from '../Photos/Site Pics/9.jpg'
-import { BiRightArrow } from "react-icons/bi";
-import { BsArrowRightShort } from "react-icons/bs";
+import longhair from '../Photos/longhair.jpg'
+// import { BiRightArrow } from "react-icons/bi";
+// import { BsArrowRightShort } from "react-icons/bs";
 
 
 
@@ -10,7 +11,7 @@ const Services = () => {
     <div className='services'>
       <div className='servicesHeader'><h1>SERVICES</h1></div>
       <div className='brLine' />
-      <img className='servicesHeaderImg' src={img9} alt="product" />
+      {/* <img className='servicesHeaderImg' src={img9} alt="salon" /> */}
       <h3 style={{textAlign:"center"}}>* The listings below indicate starting prices. Final prices will depend on service provider, timing, hair length, density and / or special treatment required.</h3>
       <div className='servicesColor'>
         <div className='colorTextBox'>
@@ -28,12 +29,12 @@ const Services = () => {
           <h4 className='colorLabel'>Color Correction | Complete Color Change: <br /> <span>Priced Upon Consultation</span></h4>
         </div>
         <div className='colorImgBox'>
-          <img className='servicesColorImg' src="https://i.imgur.com/22KS9Yc.jpg" alt="photo2" />
+          <img className='servicesColorImg' src={longhair} alt="longhair" />
         </div>
       </div>
       <div className='servicesStyle'>
         <div className='stylingImgBox'>
-          <img className='servicesStylingImg' src="https://i.imgur.com/q9zryo0.jpg" alt="photo3" />
+          <img className='servicesStylingImg' src={img9} alt="salon" />
         </div>
         <div className='stylingTextBox'>
           <h2>STYLING</h2><br />
@@ -52,7 +53,7 @@ const Services = () => {
         </div>
       </div>
       <h4 style={{textAlign:"center", width:"70%", fontFamily:"Helvetica Now Bold"}}>Consultations for Color, Haircuts and Extensions are Complimentary</h4>
-      <button><a href="https://www.fresha.com/a/material-tampa-2502-north-howard-avenue-tjr5uxjo/booking?menu=true" target="_blank" style={{textDecoration:"none", color:"white"}}>Book An Appointment</a></button>
+      <button><a href="https://www.fresha.com/a/material-tampa-2502-north-howard-avenue-tjr5uxjo/booking?menu=true" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}>Book An Appointment</a></button>
       {/* <img className='servicesFooterImg' src="https://i.imgur.com/q9zryo0.jpg" alt="example" /> */}
     </div>
   )

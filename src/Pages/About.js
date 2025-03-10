@@ -1,5 +1,6 @@
 import React from 'react'
-import signImg from '../Photos/Site Pics/7.jpg'
+import sign from '../Photos/SignPhoto.jpg'
+import joanna from '../Photos/joanna.jpg'
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
       <div className='brLine' />
       <div className='about1'>
         <div className='about1imgbox'>
-          <img className='about1img' src={signImg} alt="sign" />
+          <img className='about1img' src={sign} alt="sign" />
         </div>
         <div className='about1text'>
           <p className='about1p'><span style={{fontFamily:"Helvetica Now Bold"}}>MATERIAL</span> is an intimate, new style of full service hair salon that provides premiere color and styles to Tampa's best. A boutique space in the heart of Tampa Bay, where top stylists from NYC and LA bring their cultivated quality of work to the rapidly growing community.</p>
@@ -21,7 +22,7 @@ const About = () => {
           </div>
         </div>
         <div className='about2imgbox'>
-            <img className='about2img' src="https://i.imgur.com/22KS9Yc.jpg" alt="Joanna" />
+            <img className='about2img' src={joanna} alt="Joanna" />
         </div>
       </div>
     </div>

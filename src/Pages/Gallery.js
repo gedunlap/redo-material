@@ -1,7 +1,9 @@
 import React from 'react'
 import maddison from '../Photos/MaddisonCove.jpeg'
-// import jessi from '../Photos/JessiIG.jpeg'
-// import gabi from '../Photos/Gabi.jpeg'
+import camilla from '../Photos/CamillaZinober.jpeg'
+import jason from '../Photos/JasonJoseph.jpeg'
+import clint from '../Photos/Clint.jpg'
+import kevin from '../Photos/Kevin.jpg'
 import { IoLogoInstagram } from 'react-icons/io'
 
 
@@ -23,27 +25,9 @@ const Gallery = () => {
       <div className='artists'>
         <div className='artistbox'>
           <div className='imgbox'>
-            <img src="https://i.imgur.com/ciLkqIX.jpg" alt="clint" />
+            <img src={clint} alt="clint" />
           </div>
           <a href="https://www.instagram.com/clint.color/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Clint Dunlap - Colorist / Salon Owner <IoLogoInstagram size='20' /></p></a>
-        </div>
-        {/* <div className='artistbox'>
-          <div className='imgbox'>
-            <img src="https://i.imgur.com/sbtD3pA.jpg" alt="derek" />
-          </div>
-          <a href="https://www.instagram.com/derekpeterw/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Derek Williams - Stylist <IoLogoInstagram size='20' /></p></a>
-        </div>
-        <div className='artistbox'>
-          <div className='imgbox'>
-            <img src={jessi} alt="jessi" />
-          </div>
-          <a href="https://www.instagram.com/jessi.lee.hair/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Jessi Lee - Colorist / Stylist <IoLogoInstagram size='20' /></p></a>
-        </div> */}
-        <div className='artistbox'>
-          <div className='imgbox'>
-            <img src="https://imgur.com/OdUi0TZ.jpg" alt="kevin" />
-          </div>
-          <a href="https://www.instagram.com/kevinandrewbaker/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Kevin Baker - Stylist <IoLogoInstagram size='20' /></p></a>
         </div>
         <div className='artistbox'>
           <div className='imgbox'>
@@ -51,12 +35,27 @@ const Gallery = () => {
           </div>
           <a href="https://www.instagram.com/maddisoncolors/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Maddison Cave - Colorist / Stylist <IoLogoInstagram size='20' /></p></a>
         </div>
-        {/* <div className='artistbox'>
+        
+        <div className='artistbox'>
           <div className='imgbox'>
-            <img src={gabi} alt="maddison" />
+            <img src={kevin} alt="kevin" />
           </div>
-          <a href="https://www.instagram.com/glossed.by.gabi/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Gabriella Saari - Colorist <IoLogoInstagram size='20' /></p></a>
-        </div> */}
+          <a href="https://www.instagram.com/kevinandrewbaker/" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Kevin Baker - Stylist <IoLogoInstagram size='20' /></p></a>
+        </div>
+        
+        <div className='artistbox'>
+          <div className='imgbox'>
+            <img src={camilla} alt="camilla" />
+          </div>
+          <a href="https://www.instagram.com/camilla_zinober/?hl=en" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Camilla Zinober - Colorist / Extension Specialist <IoLogoInstagram size='20' /></p></a>
+        </div>
+
+        <div className='artistbox'>
+          <div className='imgbox'>
+            <img src={jason} alt="jason" />
+          </div>
+          <a href="https://www.instagram.com/jasonjosephhair/?hl=en" target="_blank" rel="noreferrer" style={{textDecoration:"none", color:"white"}}><p>Jason Joseph - Stylist / Colorist <IoLogoInstagram size='20' /></p></a>
+        </div>
       </div>
       <div className='brLine'></div>
       <h2>GALLERY</h2>
