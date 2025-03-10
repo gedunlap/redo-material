@@ -21,7 +21,7 @@ const About = () => {
           </div>
         </div>
         <div className='about2imgbox'>
-            <img className='about2img' src="https://i.imgur.com/CrJjauY.jpg" alt="clint" />
+            <img className='about2img' src="https://i.imgur.com/22KS9Yc.jpg" alt="Joanna" />
         </div>
       </div>
     </div>

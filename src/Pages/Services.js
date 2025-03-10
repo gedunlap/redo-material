@@ -15,7 +15,7 @@ const Services = () => {
       <div className='servicesColor'>
         <div className='colorTextBox'>
           <h2>COLOR</h2><br />
-          <h4 className='colorLabel'>Highlights: <br /> <span>Starting at $350</span></h4>
+          <h4 className='colorLabel'>Highlights: <br /> <span>Starting at $325</span></h4>
           <p className='colorText'>Highlighting techniques include foiling and free-hand painting/balayage. Service includes toner/gloss and blow dry.</p><br />
           <h4 className='colorLabel'>Single Process/Root Coverage: <br /> <span>Starting at $165</span></h4>
           <p className='colorText'>Service includes a root touch up for color or gray coverage, toner/gloss and blow dry.</p><br />
@@ -33,19 +33,19 @@ const Services = () => {
       </div>
       <div className='servicesStyle'>
         <div className='stylingImgBox'>
-          <img className='servicesStylingImg' src="https://i.imgur.com/xL51teP.jpg" alt="photo3" />
+          <img className='servicesStylingImg' src="https://i.imgur.com/q9zryo0.jpg" alt="photo3" />
         </div>
         <div className='stylingTextBox'>
           <h2>STYLING</h2><br />
-          <h4 className='stylingLabel'>Haircut: <br /> <span>Starting at $100</span></h4>
+          <h4 className='stylingLabel'>Haircut: <br /> <span>Starting at $115</span></h4>
           <p className='stylingText'>Service includes blow dry/style.</p><br />
-          <h4 className='stylingLabel'>Blow Dry: <br /> <span>Starting at $85</span></h4>
+          <h4 className='stylingLabel'>Blow Dry: <br /> <span>Starting at $80</span></h4>
           <br />
-          <h4 className='stylingLabel'>Up do | Special Occasion: <br /> <span>Starting at $100</span></h4>
+          <h4 className='stylingLabel'>Up do | Special Occasion: <br /> <span>Starting at $120</span></h4>
           <br />
-          <h4 className='stylingLabel'>Men's Haircut: <br /> <span>Starting at $55</span></h4>
+          <h4 className='stylingLabel'>Men's Haircut: <br /> <span>Starting at $60</span></h4>
           <br />
-          <h4 className='stylingLabel'>Men's Haircut with Beard Trim: <br /> <span>Starting at $70</span></h4>
+          <h4 className='stylingLabel'>Men's Haircut with Beard Trim: <br /> <span>Starting at $75</span></h4>
           <br />
           <h2>EXTENSIONS</h2>
           <p className='stylingText'>All extension services are priced upon consultation</p><br />
@@ -53,7 +53,7 @@ const Services = () => {
       </div>
       <h4 style={{textAlign:"center", width:"70%", fontFamily:"Helvetica Now Bold"}}>Consultations for Color, Haircuts and Extensions are Complimentary</h4>
       <button><a href="https://www.fresha.com/a/material-tampa-2502-north-howard-avenue-tjr5uxjo/booking?menu=true" target="_blank" style={{textDecoration:"none", color:"white"}}>Book An Appointment</a></button>
-      <img className='servicesFooterImg' src="https://i.imgur.com/q9zryo0.jpg" alt="example" />
+      {/* <img className='servicesFooterImg' src="https://i.imgur.com/q9zryo0.jpg" alt="example" /> */}
     </div>
   )
 }
