@@ -16,17 +16,20 @@ const Services = () => {
       <div className='servicesColor'>
         <div className='colorTextBox'>
           <h2>COLOR</h2><br />
-          <h4 className='colorLabel'>Highlights: <br /> <span>Starting at $325</span></h4>
-          <p className='colorText'>Highlighting techniques include foiling and free-hand painting/balayage. Service includes toner/gloss and blow dry.</p><br />
-          <h4 className='colorLabel'>Single Process/Root Coverage: <br /> <span>Starting at $165</span></h4>
-          <p className='colorText'>Service includes a root touch up for color or gray coverage, toner/gloss and blow dry.</p><br />
-          <h4 className='colorLabel'>All Over Color: <br /> <span>Starting at $200</span></h4>
-          <p className='colorText'>Service includes all-over hair color application that covers grays or creates a holistic color change, toner/gloss and blow dry.</p><br />
-          <h4 className='colorLabel'>Gloss | Toner | Glaze: <br /> <span>Starting at $100</span></h4>
-          <p className='colorText'>Service includes toning/color melt/gloss and blow dry.</p><br />
-          <h4 className='colorLabel'>Double Process Retouch: <br /> <span>Priced Upon Consultation</span></h4>
-          <p className='colorText'>This is a four-to-six-week refresh for existing, double-process blondes. Service includes toner/gloss and blow dry.</p><br />
-          <h4 className='colorLabel'>Color Correction | Complete Color Change: <br /> <span>Priced Upon Consultation</span></h4>
+          <h4 className='colorLabel'>Color Consultation </h4>
+          <p className='colorText'>An in depth conversation about your hair color needs and your future appointment. <br /> <span className='price'>Free</span></p><br />
+          <h4 className='colorLabel'>New Guest Color Appointment </h4>
+          <p className='colorText'>Includes a full consultation, custom color service, and nourishing treatment. <br /> <span className='price'>From $375</span></p><br />
+          <h4 className='colorLabel'>Full Curated Color </h4>
+          <p className='colorText'>Ideal for full highlights, balayage, or major color changes. Best for high-maintenance color. <br /> <span className='price'>From $350</span></p><br />
+          <h4 className='colorLabel'>Curated Color Maintenance </h4>
+          <p className='colorText'>Perfect for refreshing lived-in or dimensional color. Includes partial highlights or lowlights. <br /> <span className='price'>From $275</span></p><br />
+          <h4 className='colorLabel'>Hairline Highlight </h4>
+          <p className='colorText'>Face-framing highlights to refresh brightness around the hairline. <br /> <span className='price'>From $225</span></p><br />
+          <h4 className='colorLabel'>Root Touch-Up </h4>
+          <p className='colorText'>Single-process color for covering roots or grays. Includes toner. (No highlights included.) <br /> <span className='price'>From $165</span></p><br />
+          <h4 className='colorLabel'>Gloss / Toner </h4>
+          <p className='colorText'>Refresh tone, add shine, and condition. Great between color appointments.  <br /> <span className='price'>From $100</span></p><br />
         </div>
         <div className='colorImgBox'>
           <img className='servicesColorImg' src={longhair} alt="longhair" />
@@ -38,18 +41,22 @@ const Services = () => {
         </div>
         <div className='stylingTextBox'>
           <h2>STYLING</h2><br />
-          <h4 className='stylingLabel'>Haircut: <br /> <span>Starting at $115</span></h4>
-          <p className='stylingText'>Service includes blow dry/style.</p><br />
-          <h4 className='stylingLabel'>Blow Dry: <br /> <span>Starting at $80</span></h4>
-          <br />
-          <h4 className='stylingLabel'>Up do | Special Occasion: <br /> <span>Starting at $120</span></h4>
-          <br />
-          <h4 className='stylingLabel'>Men's Haircut: <br /> <span>Starting at $60</span></h4>
-          <br />
-          <h4 className='stylingLabel'>Men's Haircut with Beard Trim: <br /> <span>Starting at $75</span></h4>
-          <br />
+          <h4 className='stylingLabel'>Haircut + Style </h4>
+          <p className='stylingText'>Custom haircut with shampoo, blow-dry, and styling. <br /> <span className='price'>From $115</span></p><br />
+          <h4 className='stylingLabel'>Haircut Add-On (with Color) </h4>
+          <p className='stylingText'>Trim or clean-up added to any color service. Includes blow-dry and style. (Only book with color.) <br /> <span className='price'>From $75</span></p><br />
+          <h4 className='stylingLabel'>Men's Cut + Style </h4>
+          <p className='stylingText'>Precision cut and tailored styling. <br /> <span className='price'>From $60</span></p><br />
+          <h4 className='stylingLabel'>Blowout </h4>
+          <p className='stylingText'>Shampoo, blow-dry, and style. <br /> <span className='price'>From $80</span></p><br />
+          <h4 className='stylingLabel'>Event Styling / Updo </h4>
+          <p className='stylingText'>Special occasion or formal styling, customized to your event. <br /> <span className='price'>From $120</span></p><br />
+          <h4 className='stylingLabel'>Brazilian Blowout </h4>
+          <p className='stylingText'>Smoothing treatment to reduce frizz and boost shine. <br /> <span className='price'>From $250</span></p><br />
+
           <h2>EXTENSIONS</h2>
-          <p className='stylingText'>All extension services are priced upon consultation</p><br />
+          <h4 className='stylingLabel'>Extension Consultation</h4>
+          <p className='stylingText'>In-depth in-person consultation to discuss your goals and options.<br /> <span className='price'>Free</span></p><br />
         </div>
       </div>
       <h4 style={{textAlign:"center", width:"70%", fontFamily:"Helvetica Now Bold"}}>Consultations for Color, Haircuts and Extensions are Complimentary</h4>
